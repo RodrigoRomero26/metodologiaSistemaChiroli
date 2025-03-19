@@ -1,0 +1,28 @@
+{
+  "tareas": [
+    {
+      "id": "2025-03-19T23:14:28.957Z",
+      "titulo": "Tarea 1",
+      "descripcion": "Descripcion de la tarea 1",
+      "fechaLimite": "2025-03-01"
+    },
+    {
+      "id": "2025-03-19T23:14:38.947Z",
+      "titulo": "Tarea 2",
+      "descripcion": "Descripcion de la tarea 2",
+      "fechaLimite": "2025-03-02"
+    },
+    {
+      "id": "2025-03-19T23:14:49.964Z",
+      "titulo": "Tarea 3",
+      "descripcion": "Descripcion de la tarea 3",
+      "fechaLimite": "2025-03-13"
+    },
+    {
+      "id": "2025-03-19T23:15:05.928Z",
+      "titulo": "Tarea Profe",
+      "descripcion": "Acepteme en steam profe porfas",
+      "fechaLimite": "2025-03-13"
+    }
+  ]
+}

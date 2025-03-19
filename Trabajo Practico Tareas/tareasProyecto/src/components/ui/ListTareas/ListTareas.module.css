@@ -1,0 +1,57 @@
+.containerPrincipalListTareas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	flex-direction: column;
+	height: 85vh;
+	gap: 1rem;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.containerTitleAndButton {
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+	width: 80%;
+}
+.containerTitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: .2rem;
+	border: #f380f7 2px solid;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	border-radius: .4rem;
+}
+.containerList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: #e2e2e2ce;
+	width: 70%;
+	min-height: 60vh;
+	max-height: 62vh;
+	overflow-y: auto;
+	border-radius: 0.4rem;
+}
+.containerTitleAndButton button{
+	background-color: rgb(238,174,202); 
+	border: #f380f7 2px solid;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+  }
+  .containerTitleAndButton button:hover {
+	cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }

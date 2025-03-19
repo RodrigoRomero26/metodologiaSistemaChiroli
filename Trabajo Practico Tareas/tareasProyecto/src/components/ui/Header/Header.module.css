@@ -1,0 +1,29 @@
+.containerHeader {
+	width: 100vw;
+	height: 8vb;
+	background-color: #ccc;
+	display: flex;
+    gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	background: rgb(238, 174, 202);
+	background: radial-gradient(
+		circle,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(148, 187, 233, 1) 100%
+	);
+}
+.containerTitleHeader {
+	border: #f380f7 2px solid;
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+	color: rgba(255, 255, 255, 0.849);
+    text-shadow: 1px 1px 2px black;
+}
+.containerDateHeader {
+	border: #f380f7 2px solid;
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+	color: rgba(255, 255, 255, 0.849);
+    text-shadow: 1px 1px 2px black;
+}
