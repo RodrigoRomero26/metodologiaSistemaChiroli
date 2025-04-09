@@ -1,0 +1,77 @@
+.estudiantesPrincipalContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.estudiantesPrincipalDataContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 85%;
+	height: 85%;
+	gap: 0.8rem;
+}
+
+.estudiantesTitleAndButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+    margin-bottom: .8rem;
+}
+
+
+
+.estudiantesPrincipalContainer h2 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2rem;
+
+	color: #333;
+}
+
+.estudiantesList {
+	display: flex;
+	flex-direction: column;
+	height: 85%;
+}
+
+.estudianteItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80%;
+	padding: 1rem;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 1rem;
+}
+
+.volverContainer {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-left: 1rem;
+}
+
+.volverLink {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.4rem;
+	transition: color 0.2s;
+}
+
+.volverLink:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
