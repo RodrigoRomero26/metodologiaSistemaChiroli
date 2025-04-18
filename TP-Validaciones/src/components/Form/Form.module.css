@@ -1,0 +1,31 @@
+.container {
+	background-image: url("/images/fondov2.JPG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.formContainer {
+    position: fixed;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
